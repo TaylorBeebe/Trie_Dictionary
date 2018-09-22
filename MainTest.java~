@@ -1,0 +1,12 @@
+class MainTest{
+  
+  public static void main(String[] args){
+    LexiconTrie l = new LexiconTrie;
+    l.addWordsFromFile(ospd2.txt);
+    iterator<String> i = l.iterator();
+    while (i.hasNext()){
+      System.out.println(i.next());
+    }
+  }
+  
+}
