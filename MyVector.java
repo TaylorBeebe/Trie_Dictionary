@@ -1,5 +1,6 @@
 import structure5.*;
 
+//Custom vector class to suit my needs
 public class NodeVector<LexiconNode> extends Vector<LexiconNode>{
 
     public NodeVector(int initialCapacity){

@@ -1,8 +1,6 @@
 /*
- * This main program is provided to test the implementation
- * of your Lexicon class.  You are encouraged to modify this
- * file as needed to fit your testing needs and/or include
- * additional tests of your own design.
+ * Main program provided by CS to test the 
+ * faculty to implementation of the dictionary.
  */
 
 import structure5.*;
@@ -15,10 +13,6 @@ class Main {
     /*
      * Main allocates the starting empty lexicon and then enters into
      * the command loop that allows the user to enter commands until finished.
-     *
-     * Note that the syntax and structure for this entire class is a little odd.  This is
-     * mostly because it was translated from C++ code.  Do not get bogged 
-     * down in the details.
      */
     public static void main(String s[]) {	
 	Main m = new Main();
